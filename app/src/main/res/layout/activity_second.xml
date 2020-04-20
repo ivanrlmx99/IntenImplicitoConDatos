@@ -7,9 +7,21 @@
     tools:context=".SecondActivity">
 
 
-    <TextView
+
+
+    <ImageView
+        android:id="@+id/war"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Bienvenido a la segunda pantalla"/>
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ladyli"/>
+
+
+    <TextView
+        android:layout_below="@+id/war"
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
 
 </RelativeLayout>
